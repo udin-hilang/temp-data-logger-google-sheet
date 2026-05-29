@@ -21,8 +21,8 @@ ThreeWire myWire(26, 25, 27);
 RtcDS1302<ThreeWire> rtc(myWire);
 
 // --- Wi-Fi Credentials ---
-const char* ssid = "realme 12+ 5G";
-const char* pw = "";
+const char* ssid = "SSID";
+const char* pw = "PASSWORD";
 
 // Initialize HTTP client instance
 HTTPClient http;
